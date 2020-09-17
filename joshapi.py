@@ -1,12 +1,12 @@
 #Non-Obfuscated Master Copy 
-# JOSH API VERSION 1.2.10
+# JOSH API VERSION 1.2.11
 
-"""JoshAPI Version 1.2.10
+"""JoshAPI Version 1.2.11
 
 Do not use in assessments, exams, or anything that is graded. You are welcome to use it in simple projects & exercises. All copies given out to people other than myself will be obfuscated.
 
 To use in your programs:<br>
-- Make sure joshapi.pyc is in the same directory as your programs<br>
+- Make sure joshapi.py is in the same directory as your programs<br>
 - Have 'import joshapi' at the top of your programs<br>
 - To use functions from JoshAPI make sure 'joshapi.' is at the front<br>
 
@@ -23,6 +23,40 @@ Run "help(joshapi)"
 <br>
 <strong>Download JoshAPI</strong><br>
 <a href='joshapi.py' download>Click here</a>
+
+Disclaimer:
+
+JoshAPI is registered under the Creative Commons license. Users are permitted to copy,
+distribute, display and perform JoshAPI but users are not permitted to distribute modified or
+derivative works based on it. On the occasion that a user desires to distribute modified or
+derivative works based on JoshAPI then they must file an application with Openic Development
+and obtain their express, written and signed permission.
+
+JoshAPI is not permitted to be used in educational assessments or assignments that have an
+effect on the outcome of the student’s grade or score without the permission of their lecturer,
+instructor or educator.
+
+JoshAPI can be copied, distributed, displayed and performed for commercial purposes provided
+relevant references are provided to Joshua Mulik or Openic Development.
+
+There are no warranties provided for JoshAPI. Openic Development does not take responsibility
+for any action or event that occurs from JoshAPI. If there is a bug or error, please contact Openic
+Development and the error or bug will be rectified in the next release.
+
+If JoshAPI is used in any program, project or application JoshAPI must be appropriately credited. A
+link to the license must be created and if there were any changes it must be indicated. Note that
+modified versions of JoshAPI cannot be distributed or shared without prior written express
+permission from Openic Development.
+
+Openic Development cannot revoke your freedom of sharing JoshAPI by copying, or distributing in
+any medium or format, even commercially, as long as the license terms are followed.
+JoshAPI is licensed under Creative Commons Attribution-NoDerivatives 4.0 International License.
+
+https://creativecommons.org/licenses/by-nd/4.0/
+
+ANY AMENDMENTS OR CHANGE IN THE LICENSE WILL BE ANNOUNCED IN NEWER
+VERSIONS OF JOSHAPI AND ON OPENIC DEVELOPMENT’S PUBLIC WEBSITES AND
+FORUMS. OLDER RELEASES OF JOSHAPI WILL USE THEIR ORIGINAL LICENSE
 
 """
 import math
@@ -51,7 +85,7 @@ except ModuleNotFoundError:
 	print("Completed.")
 	from pynput import keyboard
 
-VERSION = "1.2.10"
+VERSION = "1.2.11"
 
 def Info():
 	"""Provides the version and basic information for JoshAPI
